@@ -26,7 +26,7 @@ Instead of managing multiple disparate scripts (like `7z2john.py`, `office2hashc
 ## Usage
 
 ### Installation
-Download the latest pre-compiled binary for your system from the [Releases](https://github.com/user/repo/releases) page.
+Download the latest pre-compiled binary for your system from the [Releases](https://github.com/leftstack/unhash/releases) page.
 
 ### Examples
 
