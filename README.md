@@ -18,7 +18,7 @@ Instead of managing multiple disparate scripts (like `7z2john.py`, `office2hashc
 
 *   **Archives**: 7-Zip, RAR (3/5), AESCrypt, AxCrypt, ZIP, 7z.
 *   **Wallets**: Bitcoin (Core, Android, BIP-38), Electrum, Ethereum, MetaMask, Bisq, Blockchain.com, MultiBit, Exodus.
-*   **System Security**: APFS (Apple File System), BitLocker, LUKS (v1/v2), macOS Keychain, iOS Keybag, Windows Hello PIN.
+*   **System Security**: APFS (Apple File System), BitLocker, LUKS (v1/v2), macOS Keychain, iOS Keybag, Windows Hello PIN, DPAPI Masterkeys.
 *   **Identity & Network**: Kerberos (Keytabs/PDML), IKE-Scan (PSK), Gitea, Apache Shiro.
 *   **Documents & Apps**: MS Office (97-2013), PDF, Bitwarden, KeePass (v1/v2), LastPass, 1Password.
 *   **Encryption**: OpenSSL, GPG, Ansible Vault, PEM (PKCS#8), SQLCipher, Kremlin.
@@ -39,3 +39,16 @@ unhash keepass MyDatabase.kdbx
 
 # Extract a hash from a Bitcoin wallet.dat
 unhash bitcoin wallet.dat
+```
+
+For specific options and Hashcat mode information for any command:
+```bash
+unhash [COMMAND] --help
+```
+
+##  License
+
+Copyleft (ɔ) 2026 **LeftStack**
+
+---
+*Note: This repository contains binary releases only. Source code is currently private.*
