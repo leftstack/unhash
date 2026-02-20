@@ -6,8 +6,8 @@ Instead of managing multiple disparate scripts (like `7z2john.py`, `office2hashc
 
 ## Key Features
 
-*   **Unified Interface**: Access 69 extractors through one tool.
-*   **Cracker Ready**: Outputs hashes in standard formats (e.g., `$7z$`, `$bitcoin$`, `$krb5pa$`).
+*   **Unified Interface**: Access >80 extractors through one tool.
+*   **Recovery Tool Ready**: Outputs hashes in standard formats (e.g., `$7z$`, `$bitcoin$`, `$krb5pa$`).
 *   **Broad Support**: Handles archives, wallets, disk images, documents, databases, and password managers.
 *   **Auto-Detection**: Built-in intelligence to detect file versions and KDF parameters.
 *   **Standalone & Fast**: Written in Rust for maximum performance; no external dependencies (like Python or Perl) are required.
@@ -16,13 +16,13 @@ Instead of managing multiple disparate scripts (like `7z2john.py`, `office2hashc
 
 `unhash` includes extractors for:
 
-*   **Archives**: 7-Zip, RAR (3/5), AESCrypt, AxCrypt, ZIP, 7z.
-*   **Wallets**: Bitcoin (Core, Android, BIP-38), Electrum, Ethereum, Monero, MetaMask, Bisq, Blockchain.com, MultiBit, Exodus.
-*   **System Security**: APFS (Apple File System), BitLocker, LUKS (v1/v2), FileVault 2, FreeBSD GELI, Android FDE, EncFS, eCryptfs, macOS (User Passwords), macOS Keychain, iOS Keybag, Windows Hello PIN, DPAPI Masterkeys, AIX.
-*   **Identity & Network**: Kerberos (Keytabs/PDML), IKE-Scan (PSK), SIP, WPA/WPA2 (PCAP/PCAPng), PuTTY Private Key, Gitea, Apache Shiro.
-*   **Databases**: Oracle (7-10g, 11g, 12c+), MongoDB (SCRAM-SHA-1/256), SAP (CODVN B/F/G/H), SQLCipher.
-*   **Documents & Apps**: MS Office (97-2013), PDF, Lotus Notes/Domino, Bitwarden, KeePass (v1/v2), LastPass, 1Password.
-*   **Encryption**: OpenSSL, GPG, Ansible Vault, PEM (PKCS#8), Kremlin.
+*   **Archives**: 7-Zip, AESCrypt, AxCrypt, RAR (3/5), ZIP.
+*   **Wallets**: Bisq, Bitcoin (Core, Android, BIP-38), Blockchain.com, Cardano, Electrum, Ethereum, Exodus, MetaMask, Monero, MultiBit, Tezos.
+*   **System Security**: AIX, Android FDE, APFS (Apple File System), BestCrypt, BitLocker, CryptoLoop, DiskCryptor, DMG, DPAPI Masterkeys, eCryptfs, EncFS, FileVault 2, FreeBSD GELI, GNOME Keyring, iOS Keybag, KDE KWallet, LUKS (v1/v2), macOS (User Passwords/Keychain), OpenBSD softraid, TrueCrypt, VeraCrypt, VirtualBox, VMware, Windows Hello PIN.
+*   **Identity & Network**: Apache Shiro, Gitea, IKE-Scan (PSK), Kerberos (Keytabs/PDML), RADIUS, SIP, SSH, WPA/WPA2 (PCAP/PCAPng), PuTTY Private Key.
+*   **Databases**: MongoDB (SCRAM-SHA-1/256), Oracle (7-10g, 11g, 12c+), SAP (CODVN B/F/G/H), SQLCipher.
+*   **Documents & Apps**: andOTP, Apple Notes, Bitwarden, Dashlane, Enpass, iTunes Backup, Android Backup, KeePass (v1/v2), LastPass, Lotus Notes/Domino, Microsoft Account, Mozilla (Firefox/Thunderbird), MS Office (97-2013), 1Password, PasswordSafe, PDF, Signal, Telegram.
+*   **Encryption**: Ansible Vault, BKS, GPG, Java KeyStore (JKS), Kremlin, OpenSSL, PEM (PKCS#8).
 
 ## Usage
 
