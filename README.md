@@ -6,7 +6,7 @@ Instead of managing multiple disparate scripts (like `7z2john.py`, `office2hashc
 
 ## Key Features
 
-*   **Unified Interface**: Access ~105 extractors through one tool.
+*   **Unified Interface**: Access ~114 extractors through one tool.
 *   **Recovery Tool Ready**: Outputs hashes in standard formats (e.g., `$7z$`, `$bitcoin$`, `$krb5pa$`).
 *   **Broad Support**: Handles archives, wallets, disk images, documents, databases, and password managers.
 *   **Auto-Detection**: Built-in intelligence to detect file versions and KDF parameters.
@@ -16,12 +16,12 @@ Instead of managing multiple disparate scripts (like `7z2john.py`, `office2hashc
 
 `unhash` includes extractors for:
 
-*   **Archives**: 7-Zip, AESCrypt, AxCrypt, RAR (3/5), Restic, Veeam VBK, ZIP.
+*   **Archives**: 7-Zip, AESCrypt, AxCrypt, RAR (3/5), Restic, Veeam VBK, ZIP, Zed.
 *   **Wallets**: Bisq, Bitcoin (Core, Android, BIP-38), Bitshares, Blockchain.com, Cardano, Electrum, Ethereum, Exodus, MetaMask, Monero, MultiBit, Tezos.
-*   **System Security**: AIX, Android FDE, APFS (Apple File System), BestCrypt (Container/JBC), BestCrypt Volume Encryption, BitLocker, CryptoLoop, DiskCryptor, DMG, DPAPI Masterkeys, eCryptfs, EncFS, FileVault 2, FreeBSD GELI, GNOME Keyring, iOS Keybag, iOS Restrictions, KDE KWallet, LUKS (v1/v2), macOS (User Passwords/Keychain), OpenBSD softraid, TrueCrypt, VeraCrypt, VirtualBox, VMware, Windows Hello PIN.
-*   **Identity & Network**: Adobe AEM, Apache Shiro, Cisco (Type 5/7/8/9), Ejabberd, Gitea, Htdigest, IKE-Scan (PSK), Kerberos (Keytabs/ccache/Kirbi/PDML), LDAP LDIF, Mosquitto, NetIQ SSPR, pfSense/OPNsense, Prosody IM, RADIUS, SIP, SNMPv3 (PCAP/PCAPng), SSH (incl. Known Hosts), WPA/WPA2 (PCAP/PCAPng), PuTTY Private Key.
+*   **System Security**: AIX, Android FDE, APFS (Apple File System), BestCrypt (Container/JBC), BestCrypt Volume Encryption, BitLocker, CryptoLoop, DiskCryptor, DMG, DPAPI Masterkeys, eCryptfs, EncFS, FileVault 2, FreeBSD GELI, GNOME Keyring, iOS Keybag, iOS Restrictions, iOS 7-12, KDE KWallet, LUKS (v1/v2), macOS (User Passwords/Keychain), OpenBSD softraid, TrueCrypt, VeraCrypt, VirtualBox, VMware, Windows Hello PIN, OpenVMS SYSUAF.
+*   **Identity & Network**: Adobe AEM, Apache Shiro, ArubaOS, Cisco (Type 5/7/8/9), Ejabberd, Gitea, Htdigest, IKE-Scan (PSK), IBM iSeries (ibmiscanner), Kerberos (Keytabs/ccache/Kirbi/PDML), LDAP LDIF, Mosquitto, NetIQ SSPR, pfSense/OPNsense, Prosody IM, RADIUS, SIP, SNMPv3 (PCAP/PCAPng), SSH (incl. Known Hosts), WPA/WPA2 (PCAP/PCAPng), PuTTY Private Key, PeopleSoft PS_TOKEN.
 *   **Databases**: IBM RACF, MongoDB (SCRAM-SHA-1/256), Oracle (7-10g, 11g, 12c+/APEX), SAP (CODVN B/F/G/H), SQLCipher.
-*   **Documents & Apps**: andOTP, Apple Notes, Apple iWork, Bitwarden (incl. v2026.1.1+, LevelDB, and Firefox session data), Dashlane, Enpass, FileZilla, iTunes Backup, Android Backup, KeePass (v1-v4), LastPass, LibreOffice, Lotus Notes/Domino, McAfee ePO, Microsoft Account, Mozilla (Firefox/Thunderbird), MS Office (97-2013), 1Password (incl. v8), PasswordSafe, PDF, Signal, Telegram.
+*   **Documents & Apps**: andOTP, Apple Notes, Apple iWork, Bitwarden (incl. v2026.1.1+, LevelDB, and Firefox session data), Dashlane, Enpass, FileZilla, iTunes Backup, Android Backup, KeePass (v1-v4), LastPass, LibreOffice, Lotus Notes/Domino, McAfee ePO, Microsoft Account, Mozilla (Firefox/Thunderbird), MS Office (97-2013), 1Password (incl. v8), PasswordSafe, PDF, Signal, Telegram, STRIP.
 *   **Encryption**: Ansible Vault, BKS, GPG, PGP (Virtual Disk/WDE/SDA), Java KeyStore (JKS), Kremlin, OpenSSL, PEM (PKCS#8).
 
 ## Usage
