@@ -10,6 +10,7 @@ Instead of managing multiple disparate scripts (like `7z2john.py`, `office2hashc
 *   **Recovery Tool Ready**: Outputs hashes in standard formats (e.g., `$7z$`, `$bitcoin$`, `$krb5pa$`).
 *   **Broad Support**: Handles archives, wallets, disk images, documents, databases, and password managers.
 *   **Auto-Detection**: Built-in intelligence to detect file versions and KDF parameters.
+*   **Built-in Verification**: Test candidate passwords directly with the `--pass` flag.
 *   **Standalone & Fast**: Written in Rust for maximum performance; no external dependencies (like Python or Perl) are required.
 
 ## Supported Formats
