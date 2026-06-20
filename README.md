@@ -1,4 +1,8 @@
-# unhash | Unified Hash Extractor
+<div align="center">
+
+  # Unified Hash Extractor
+
+</div>
 
 `unhash` is a high-performance CLI utility designed to simplify the extraction of cryptographic hashes from various encrypted file formats. 
 
@@ -56,10 +60,6 @@ For specific options and Hashcat mode information for any command:
 ```bash
 unhash [COMMAND] --help
 ```
-
-## License
-
-Copyleft (ɔ) 2026 **LeftStack**
 
 ---
 *Note: This repository contains binary releases only.*
