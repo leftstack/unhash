@@ -1,6 +1,6 @@
 <div align="center">
 
-  # Unified Hash Extractor
+![screenshot](https://github.com/leftstack/unhash/blob/main/unhash.png) # Unified Hash Extractor
 
 </div>
 
