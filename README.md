@@ -11,7 +11,7 @@ Instead of managing multiple disparate scripts (like `7z2john.py`, `office2hashc
 
 ## Key Features
 
-* **Unified Interface**: Access 120 high-performance extractors through a single tool.
+* **Unified Interface**: Access >120 high-performance extractors through a single tool.
 * **Recovery Tool Ready**: Outputs hashes in standard formats (e.g., `$7z$`, `$bitcoin$`, `$krb5pa$`).
 * **Broad Support**: Handles archives, wallets, disk images, documents, databases, and password managers.
 * **Auto-Detection**: Built-in intelligence to detect file versions and KDF parameters.
