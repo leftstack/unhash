@@ -11,7 +11,7 @@ Instead of managing multiple disparate scripts (like `7z2john.py`, `office2hashc
 
 ## Key Features
 
-* **Unified Interface**: Access 120+ high-performance extractors through a single tool.
+* **Unified Interface**: Access 130+ high-performance extractors through a single tool.
 * **Recovery Tool Ready**: Outputs hashes in standard formats (e.g., `$7z$`, `$bitcoin$`, `$krb5pa$`).
 * **Broad Support**: Handles archives, wallets, disk images, documents, databases, and password managers.
 * **Auto-Detection**: Built-in intelligence to detect file versions and KDF parameters.
@@ -26,7 +26,7 @@ Instead of managing multiple disparate scripts (like `7z2john.py`, `office2hashc
 
 * **Wallets**: Bisq, Bitcoin (Core, Android, BIP-38), Bitshares, Blockchain.com, Cardano, Coinomi, Electrum, Ethereum, Exodus, MetaMask, Monero, MultiBit, Tezos.
 
-* **System Security**: AIX, Android ADB Backup, Android FDE, APFS (Apple File System), BestCrypt (Container/JBC), BestCrypt Volume Encryption, BitLocker, CryptoLoop, DiskCryptor, DMG, DPAPI Masterkeys, eCryptfs, EncFS, FileVault 2, FreeBSD GELI, GNOME Keyring, iOS Keybag, iOS Restrictions (iOS 7-12/Screen Time), KDE KWallet, LUKS (v1/v2), macOS (User Passwords/Keychain), OpenBSD softraid, TrueCrypt, VeraCrypt, VirtualBox, VMware, Windows Hello PIN, OpenVMS SYSUAF.
+* **System Security**: AIX, Android ADB Backup, Android FDE, APFS (Apple File System), BestCrypt (Container/JBC), BestCrypt Volume Encryption, BitLocker, CryptoLoop, DiskCryptor, DMG, DPAPI Masterkeys, eCryptfs, EncFS, FileVault 2, FreeBSD GELI, GNOME Keyring, Google fscrypt, iOS Keybag, iOS Restrictions (iOS 7-12/Screen Time), KDE KWallet, LUKS (v1/v2), macOS (User Passwords/Keychain), OpenBSD softraid, TrueCrypt, VeraCrypt, VirtualBox, VMware, Windows Hello PIN, OpenVMS SYSUAF.
 
 * **Identity & Network**: Adobe AEM, Apache Shiro, ArubaOS, Atlassian, Cisco (Type 4/5/7/8/9, including convoluted $14$), Domino Internet/HTTP, Ejabberd, Gitea, Grafana, Htdigest, IKE-Scan (PSK), IBM iSeries (ibmiscanner), Kerberos (Keytabs/ccache/Kirbi/PDML), LDAP LDIF, Mosquitto, NetIQ SSPR, pfSense/OPNsense, Prosody IM, Radmin Server 3.x, RADIUS, SecureCRT, SIP, SNMPv3 (PCAP/PCAPng), SSH (including Known Hosts), TeamSpeak 3 server databases, WPA/WPA2 (PCAP/PCAPng), PuTTY Private Key, PeopleSoft PS_TOKEN.
 
@@ -45,8 +45,12 @@ Download the latest pre-compiled binary for your system from the [Releases](http
 ### Examples
 
 ```bash
-# General help and list of all extraction categories
+# List commands by category
+unhash
+
+# List Hashcat categories and browse a category
 unhash --help
+unhash --help password
 
 # Extract a hash from a KeePass database
 unhash keepass MyDatabase.kdbx
